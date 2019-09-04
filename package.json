@@ -4,7 +4,8 @@
   "description": "jade/sass/gulp tests",
   "main": "dist/index.html",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-copy": "^4.0.1"
   },
   "devDependencies": {
     "browser-sync": "^2.18.12",
