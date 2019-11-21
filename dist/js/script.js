@@ -34,15 +34,8 @@ $(document).ready(function() {
 
     //smooth scrolling
     SmoothScroll({ keyboardSupport: false });
-        
-});
 
-$(window).bind('load', function() {
-
-    //preloader
-    $('#preload').find('i').fadeOut().end().delay(300).fadeOut(300);
-    
     //wowjs
     new WOW().init();
-    
+        
 });

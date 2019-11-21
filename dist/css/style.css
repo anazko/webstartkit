@@ -1,29 +1,25 @@
-@import url(normalize.css);
 * {
-  font-family: Roboto;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-weight: normal;
-  box-sizing: border-box; }
+  font-family: Roboto;
+}
 
 h1 {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .container {
-  width: 1400px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  max-width: 1280px;
+}
 
-#preload {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: #fff;
-  z-index: 1001; }
-  #preload i {
-    font-size: 5em;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -35px 0 0 -35px; }
+@media screen and (max-width: 992px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
